@@ -24,14 +24,14 @@ public class Asignatura {
         this(nombre, 0, 0,tipo);
     }
 
-    public Asignatura(String nombre, int codigoInterno, int codigoExterno,Tipo tipo) {
+    public Asignatura(String nombre, double codigoInterno, int codigoExterno,Tipo tipo) {
         this.nombre = nombre;
         this.codigoInterno = codigoInterno;
         this.codigoExterno = codigoExterno;
         this.tipo = tipo;
     }
 
-    public void cambiarDatos(int codigoInterno, int codigoExterno, String nombre,Tipo tipo) {
+    public void cambiarDatos(double codigoInterno, int codigoExterno, String nombre,Tipo tipo) {
         this.codigoInterno = codigoInterno;
         this.codigoExterno = codigoExterno;
         this.nombre = nombre;

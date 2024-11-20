@@ -4,7 +4,7 @@ public class Asignatura {
 
     public String nombre;
     String n = nombre;
-    public double codigoInterno;
+    public int codigoInterno;
     public int codigoExterno;
     public Tipo tipo;
 
@@ -32,14 +32,14 @@ public class Asignatura {
     }
 
     public void cambiarDatos(double codigoInterno, int codigoExterno, String nombre,Tipo tipo) {
-        this.codigoInterno = codigoInterno;
+        this.codigoInterno = (int) codigoInterno;
         this.codigoExterno = codigoExterno;
         this.nombre = nombre;
         this.tipo = tipo;
     }
 
     public void cambiarDatos(double codigoInterno) {
-        this.codigoInterno = codigoInterno;
+        this.codigoInterno = (int)codigoInterno;
     }
 
     public void cambiarDatos(int codigoExterno) {
